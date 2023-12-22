@@ -1,15 +1,15 @@
-import "./Online.css";
+import './Online.css'
 
-const Online = ({user}) => {
+const Online = ({ user}) => {
   return (
-    <li className="rightbarFriend">
-      <div className="rightbarProfileImgContainer">
-        <img className="rightbarProfileImg" src={user.profilePicture} alt="" />
-        <span className="rightbarOnline"></span>
-      </div>
-      <span className="rightbarUserName">{user.username}</span>
+    <li className='rightbarFriend'>
+        <div className="rightbarProfileImgContainer">
+            <img className="rightbarProfileImg" src={user.profilePicture} alt=""  />
+            <span className="rightbarOnline"></span>
+        </div>
+        <span className='rightbarUsername'>{user.username}</span>
     </li>
-  );
-};
+  )
+}
 
-export default Online;
+export default Online

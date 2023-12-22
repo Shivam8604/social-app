@@ -15,7 +15,7 @@ const Rightbar = () => {
         <img className="rightbarAd" src="assets/ad.png" alt="" />
         <h4 className="rightbarTitle">Online Friend</h4>
         <ul className="rightbarFriendList">
-          {Users.map(u=>(<Online key={u.id} user={u}/>))}
+          {Users.map(u=> <Online key={u.id} user={u}/>)}
         </ul>
       </div>
     </div>
